@@ -1,16 +1,12 @@
 import React from 'react'
+import Button from 'test-button'
 
 class Sample extends React.Component {
     render () {
         return (
-            <div>
-                <style jsx>{`
-                    p {
-                        color: red;
-                    }
-                `}</style>
-                <button>{this.props.text}</button>
-            </div>
+            <Button text={"Leke"} />
         )
     }
 }
+
+export default Sample
