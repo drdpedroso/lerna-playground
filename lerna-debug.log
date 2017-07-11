@@ -1,0 +1,37 @@
+0 silly input [ 'bootstrap' ]
+1 silly flags { _: [ 'bootstrap' ], sort: true, concurrency: 4 }
+2 verbose rootPath /Users/eduardo/app-test
+3 info version 2.0.0-rc.5
+4 info versioning independent
+5 silly existsSync /Users/eduardo/app-test/VERSION
+6 error EPACKAGES JSONError: No data, empty input at 1:1 in packages/Button/package.json
+6 error EPACKAGES
+6 error EPACKAGES ^
+6 error EPACKAGES ^
+6 error EPACKAGES     at module.exports (/usr/local/lib/node_modules/lerna/node_modules/parse-json/index.js:27:17)
+6 error EPACKAGES     at parse (/usr/local/lib/node_modules/lerna/node_modules/load-json-file/index.js:8:29)
+6 error EPACKAGES     at Function.module.exports.sync.fp [as sync] (/usr/local/lib/node_modules/lerna/node_modules/load-json-file/index.js:11:29)
+6 error EPACKAGES     at Function.module.exports.sync (/usr/local/lib/node_modules/lerna/node_modules/read-pkg/index.js:40:25)
+6 error EPACKAGES     at /usr/local/lib/node_modules/lerna/lib/PackageUtilities.js:125:47
+6 error EPACKAGES     at Array.forEach (native)
+6 error EPACKAGES     at /usr/local/lib/node_modules/lerna/lib/PackageUtilities.js:119:86
+6 error EPACKAGES     at Array.forEach (native)
+6 error EPACKAGES     at Function.getPackages (/usr/local/lib/node_modules/lerna/lib/PackageUtilities.js:118:22)
+6 error EPACKAGES     at Repository.buildPackageGraph (/usr/local/lib/node_modules/lerna/lib/Repository.js:82:51)
+6 error EPACKAGES  Errored while collecting packages and package graph { JSONError: No data, empty input at 1:1 in packages/Button/package.json
+6 error EPACKAGES
+6 error EPACKAGES ^
+6 error EPACKAGES ^
+6 error EPACKAGES     at module.exports (/usr/local/lib/node_modules/lerna/node_modules/parse-json/index.js:27:17)
+6 error EPACKAGES     at parse (/usr/local/lib/node_modules/lerna/node_modules/load-json-file/index.js:8:29)
+6 error EPACKAGES     at Function.module.exports.sync.fp [as sync] (/usr/local/lib/node_modules/lerna/node_modules/load-json-file/index.js:11:29)
+6 error EPACKAGES     at Function.module.exports.sync (/usr/local/lib/node_modules/lerna/node_modules/read-pkg/index.js:40:25)
+6 error EPACKAGES     at /usr/local/lib/node_modules/lerna/lib/PackageUtilities.js:125:47
+6 error EPACKAGES     at Array.forEach (native)
+6 error EPACKAGES     at /usr/local/lib/node_modules/lerna/lib/PackageUtilities.js:119:86
+6 error EPACKAGES     at Array.forEach (native)
+6 error EPACKAGES     at Function.getPackages (/usr/local/lib/node_modules/lerna/lib/PackageUtilities.js:118:22)
+6 error EPACKAGES     at Repository.buildPackageGraph (/usr/local/lib/node_modules/lerna/lib/Repository.js:82:51)
+6 error EPACKAGES   stack: 'JSONError: No data, empty input at 1:1 in packages/Button/package.json\n\n^\n^\n    at module.exports (/usr/local/lib/node_modules/lerna/node_modules/parse-json/index.js:27:17)\n    at parse (/usr/local/lib/node_modules/lerna/node_modules/load-json-file/index.js:8:29)\n    at Function.module.exports.sync.fp [as sync] (/usr/local/lib/node_modules/lerna/node_modules/load-json-file/index.js:11:29)\n    at Function.module.exports.sync (/usr/local/lib/node_modules/lerna/node_modules/read-pkg/index.js:40:25)\n    at /usr/local/lib/node_modules/lerna/lib/PackageUtilities.js:125:47\n    at Array.forEach (native)\n    at /usr/local/lib/node_modules/lerna/lib/PackageUtilities.js:119:86\n    at Array.forEach (native)\n    at Function.getPackages (/usr/local/lib/node_modules/lerna/lib/PackageUtilities.js:118:22)\n    at Repository.buildPackageGraph (/usr/local/lib/node_modules/lerna/lib/Repository.js:82:51)',
+6 error EPACKAGES   name: 'JSONError',
+6 error EPACKAGES   fileName: 'packages/Button/package.json' }
