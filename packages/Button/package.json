@@ -1,14 +1,16 @@
 {
   "name": "test-button",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "",
-  "main": "Button.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Eduardo Pedroso",
   "license": "ISC",
   "dependencies": {
-    "react": "^15.6.1"
+    "@kadira/storybook": "^2.35.3",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1"
   }
 }
